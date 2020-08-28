@@ -12,5 +12,11 @@ int main(){
     //输出对这个人说的话
     std::cout << "Hello, " << name << "!" << std::endl;
 
+    {
+        int j = 2;//局部变量
+        std::cout << j << std::endl;//2
+    }
+    std::cout << j << std::endl;//2
+
     return 0;
 }
